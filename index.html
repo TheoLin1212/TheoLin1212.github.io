@@ -1,85 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 
 	<head>
 		<meta charset="UTF-8">
+		<title>Theo-一点一滴</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="shortcut icon" href="img/src/favicon.png" />
-		<title>爱心鱼休闲游戏</title>
-		<style type="text/css">
-			.wrap {
-				width: 800px;
-				height: 600px;
-				margin: 0 auto;
-				position: relative;
-			}
-			
-			#canvas1 {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				z-index: 1;
-			}
-			
-			#canvas2 {
-				position: absolute;
-				left: 0;
-				bottom: 0;
-				z-index: 0;
-			}
-			
-			#cover {
-				position: absolute;
-				z-index: 2;
-				width: 800px;
-				height: 600px;
-				background-image: url(img/src/cover.png);
-			}
-			
-			#play {
-				position: absolute;
-				z-index: 3;
-				width: 80px;
-				height: 80px;
-				left: 360px;
-				bottom: 110px;
-				background-image: url(img/src/play.png);
-			}
-			
-			#play:hover {
-				cursor: pointer;
-				opacity: 0.7;
-			}
-			
-			.agianWrap {
-				position: absolute;
-				z-index: 4;
-				color: white;
-				font-family: verdana;
-				font-size: 20px;
-				top: 300px;
-				width: 800px;
-				text-align: center;
-			}
-			
-			#again{
-				display: none;
-			}
-			
-		</style>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="keywords" content="全栈工程师、web前端工程师、程序员" />
+		<meta name="description" content="TheoLin个人博客及作品" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css" />
 	</head>
 
 	<body>
-		<div class="wrap">
-			<canvas id="canvas1" width="800" height="600"></canvas>
-			<canvas id="canvas2" width="800" height="600"></canvas>
-			<div id="cover"></div>
-			<div id="play"></div>
-			<p class="agianWrap"><a id="again">再来一次</a></p>
+		<header>
+			<ul>
+				<li>作品</li>
+				<li>博文</li>
+			</ul>
+		</header>
+		<div class="left">
+			<a href="https://theolin1212.github.io/">
+				<div class="avatar"></div>
+			</a>
+			<h1 class="name">Theo</h1>
+			<p class="moto">做喜欢的事，不荒废年华</p>
+			<div class="github">
+				<p>
+					<a href="https://github.com/TheoLin1212"><i class="fa fa-github"></i></a>
+				</p>
+				<p>关于我</p>
+			</div>
 		</div>
-		<script src="js/commonFunctions.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/game.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/halo.js" type="text/javascript" charset="utf-8"></script>
+		<div class="middle">
+			<div class="wrap"><a href="#"><div class="first"></div><p>爱心鱼游戏</p></a></div>
+		</div>
 	</body>
 
 </html>

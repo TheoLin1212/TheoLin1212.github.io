@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.left {
+	position: fixed;
+	width: 350px;
+	height: 100%;
+	/*background: url(../img/index/background.jpeg) no-repeat center;
+	background-size: cover;*/
+	background-color: #a0979c;
+}
+
+.avatar {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 100px;
+	top: 75px;
+	border-radius: 75px;
+	background: url(../img/index/avatar.jpg) no-repeat scroll top center;
+	box-shadow: 0 0 20px black;
+}
+
+.name {
+	/*	position: absolute;*/
+	/*	font-size: 24px;*/
+	text-align: center;
+	margin-top: 280px;
+	color: white;
+}
+
+.moto {
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+
+
+.github {
+	position: absolute;
+	width: 100%;
+	bottom: 50px;
+	text-align: center;
+}
+
+.github a{
+	font-size: 30px;
+	color: white;
+}
+
+.github p:last-child{
+	color: white;
+	margin-top: 15px;
+}
