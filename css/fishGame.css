@@ -1,6 +1,7 @@
 	.right{
+		margin: 0 auto;
 		width: 1090px;
-		margin-left: 350px;
+		/* margin-left: 350px; */
 	}
 	
 	.right h2{
